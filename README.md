@@ -2,6 +2,10 @@
 
 A comprehensive mobile application built with React Native Expo for tracking personal health and wellness activities. This app helps users monitor their health journey with personalized insights, activity logging, and progress tracking.
 
+## APK link
+
+https://expo.dev/accounts/avindutharushan/projects/HealthWellnessTracker/builds/b192d333-07e8-44b3-add5-840983f5546a
+
 ## Features
 
 ### Core Functionality
