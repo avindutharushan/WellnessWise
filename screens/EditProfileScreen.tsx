@@ -1,4 +1,3 @@
-// src/screens/EditProfileScreen.tsx
 import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert, ScrollView, KeyboardAvoidingView, Platform } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
@@ -105,7 +104,6 @@ const styles = StyleSheet.create({
   header: { flexDirection: 'row', alignItems: 'center', paddingTop: 50, paddingHorizontal: 20, paddingBottom: 20 },
   backButton: { marginRight: 15 },
   title: { fontSize: 24, fontWeight: 'bold', color: 'white' },
-  // The change is here: added flexGrow: 1
   content: { flexGrow: 1, paddingHorizontal: 20, paddingBottom: 40 },
   formContainer: { backgroundColor: 'white', borderRadius: 20, padding: 30, marginBottom: 20, shadowColor: '#000', shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.25, shadowRadius: 3.84, elevation: 5 },
   inputContainer: { marginBottom: 20 },

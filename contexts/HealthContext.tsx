@@ -173,6 +173,7 @@ export const HealthProvider: React.FC<HealthProviderProps> = ({ children }) => {
     calculateBMI,
     calculateCalorieNeeds,
   };
+  
 
   return <HealthContext.Provider value={value}>{children}</HealthContext.Provider>;
 };

@@ -1,19 +1,13 @@
-// src/screens/SettingsScreen.tsx
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Switch } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-
-// Import navigation utilities and types
 import { CompositeScreenProps } from '@react-navigation/native';
 import { BottomTabScreenProps } from '@react-navigation/bottom-tabs';
 import { StackScreenProps } from '@react-navigation/stack';
 import { MainTabParamList, AppStackParamList } from '../types';
-
-// Import custom hooks
 import { useAuth } from '../contexts/AuthContext';
 import { useHealth } from '../contexts/HealthContext';
 
-// Create a composite prop type that is aware of both the parent Stack and the current Tab navigator
 type SettingsScreenProps = CompositeScreenProps<
   BottomTabScreenProps<MainTabParamList, 'Settings'>,
   StackScreenProps<AppStackParamList>
@@ -43,7 +37,6 @@ const SettingsScreen: React.FC<SettingsScreenProps> = ({ navigation }) => {
   };
 
   const handleEditProfile = () => {
-    // This call is now type-safe because of the CompositeScreenProps
     navigation.navigate('EditProfile');
   };
 

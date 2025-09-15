@@ -6,6 +6,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { StatusBar } from 'expo-status-bar';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { HealthProvider, useHealth } from './contexts/HealthContext';
+
 import { AuthStackParamList, MainTabParamList, AppStackParamList } from './types';
 
 import WelcomeScreen from './screens/WelcomeScreen';

@@ -10,6 +10,7 @@ export type Lifestyle =
   | '';
 export type ActivityType = 'water' | 'exercise' | 'sleep' | 'meal';
 
+
 export interface UserProfile {
   userId: string;
   email: string;

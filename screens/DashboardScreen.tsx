@@ -1,4 +1,3 @@
-// src/screens/DashboardScreen.tsx
 import React, { useEffect, useState, useCallback } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, RefreshControl } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -33,7 +32,6 @@ const DashboardScreen: React.FC<DashboardScreenProps> = ({ navigation }) => {
     if (ts instanceof Timestamp) {
       return ts.toDate();
     }
-    // Fallback for older data or different structures
     return new Date(ts.seconds * 1000);
   }
 
