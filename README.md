@@ -1,4 +1,4 @@
-# Personal Health & Wellness Tracker
+# WellnessWise ( Personal Health & Wellness Tracker )
 
 A comprehensive mobile application built with React Native Expo for tracking personal health and wellness activities. This app helps users monitor their health journey with personalized insights, activity logging, and progress tracking.
 
